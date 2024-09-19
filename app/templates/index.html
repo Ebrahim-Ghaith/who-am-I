@@ -1,0 +1,7 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h2>Welcome to the Personality Quiz</h2>
+    <p>Discover your personality type by answering a few questions.</p>
+    <a href="{{ url_for('main.quiz') }}" class="btn">Start Quiz</a>
+{% endblock %}
