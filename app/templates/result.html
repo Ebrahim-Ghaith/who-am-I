@@ -1,0 +1,7 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h2>Your Personality Type: {{ result }}</h2>
+    <p>Congratulations! You are a {{ result }}. Learn more about your personality type!</p>
+    <a href="{{ url_for('main.index') }}">Take the Quiz Again</a>
+{% endblock %}
